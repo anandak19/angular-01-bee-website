@@ -1,0 +1,109 @@
+.company{
+    background-color: #fff700;
+    height: 100dvh;
+
+
+    &__header{
+        width: 100%;
+        height: 94px;
+        padding: 0 32px;
+        background-color: #000000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        background-color: #fff700;
+        font-size: 38px;
+        border-radius: 10px;
+        padding: 8px;
+        cursor: pointer;
+    }
+    &__ul{
+        list-style: none;
+        display: flex;
+    }
+    &__li{
+        color: #ffffff;
+        font-size: 18px;
+        margin-left: 12px;
+        padding: 4px;
+        cursor: pointer;
+        transition: all 0.3s;
+        border-radius: 5px;
+        &:hover{
+            background-color: #fff700;
+            color: #000;
+        }
+    }
+
+    // landing section 
+    &__intro{
+        background-image: linear-gradient(to right, #f6ff00, #fff825);
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__welcome{
+        font-size: 42px;
+        font-weight: 800;
+        padding-bottom: 14px;
+    }
+
+
+    &__service-section{
+        background-color: #ffffff;
+        height: 400px;
+        text-align: center;
+    }
+    &__heading{
+        font-size: 32px;
+        font-weight: 800;
+        padding: 33px 0;
+    }
+
+    &__services{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__tile{
+        width: 20%;
+        background-color: #fff700;
+        margin: 0 10px;
+        padding: 0 16px;
+        height: 247px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s;
+        &:hover{
+            transform: translateY(-5px);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        }
+    }
+    &__s-title{
+        font-size: 26px;
+        padding-bottom: 18px;
+    }
+
+    &__footer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 74px;
+        color: #858585;
+        background-color: #403501;
+    }
+    &__links{
+        display: flex;
+        justify-content: center;
+        & p{
+            margin: 4px 8px;
+        }
+    }
+}
